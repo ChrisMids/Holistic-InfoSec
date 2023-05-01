@@ -1,0 +1,45 @@
+HOLISTIC INFORMATION SECURITY RISK MANAGEMENT AIDED BY ARTIFICIAL INTELLIGENCE
+
+Holistic Risk Management is a research program into new risk management techniques, Christopher S Middleton, Robert Gordon University, UK.  A project outline is available here
+<ref>https://www.techrxiv.org/articles/preprint/Holistic_Security_and_Risk_Intelligence_Are_Current_Risk_Management_Methods_Leading_to_Breach_/17425457</ref> 
+
+The project is sponsored by Wee Secure [[https://weesecure.co.uk/]].  It recognises that existing risk management methodologies are non-holistic and contain various systemic and systematic issues, which result in a failure to identify and therefore mitigate risks.  Put simply, most risks are more complex than humans may simplify, having multiple features, interactions, relationships and dimensions that may significantly affect their value.  As such, risk systems need to have commensurate complexity in order to correctly identify and enumerate complex risk.  Where many existing risk management systems are either exclusively human-database driven, or technology centred, Holistic Risk Management seeks to leverage a holistic risk data collection approach, complex modelling, with the use of various machine learning algorithms and artificial intelligence to interpret and enumerate complex risk and inform decision makers.  The principle application of this research is Information Security Risk Management, but the methodologies of risk management are common and can be applied to risk management with civilian and military applications.  
+
+The the systemic and systematic issues with existing risk management methodologies are noted as:
+
+''Silos in Risk Information Systems'' - Within an organisation multiple systems may be recording risk information;  These can be systems which formal risk  management, technical risk mitigation, or incidental risk information.  Having multiple discrete systems does not produce dynamic and accurate risk assessment.
+
+''Errors Within Risk Management Systems'' - For technical security, a type II underestimation error (or false  negative) is  considered  less  desirable  than  a  type  I overestimation  error  (or  false  positive).  As many risk management systems bias to a type I error, overestimation of risk, and a waste resources would result in less genuine risk being addressed overall than a type II error. The following errors can also be routinely observed by those experienced with human-database risk management systems:  
+
+Systematic Observation Error - Users may lack understanding of the meaning of the values on scales and can often confuse terms.  
+Theoretical Simplification Error - Models which simplify and interpret complex models are useful for humans, but can lead to cognitive biases. 
+Systematic Theoretical Approximation Error - Where  approximation of values in a formula leads to incorrect calculation. 
+Unintentional Blunder Errors - Mistakes including; negligence, inexperience, lack of management, and lack of attention.  
+Intentional Blunder Errors - Two distinct cohorts of users who increase or reduce values to achieve a desired outcome (first coined by Christopher S. Middleton, 2021, 
+
+     • Fallout phobic- the understating of risk to avoid drawing attention or negative consequences.
+     • Budget chasers- the overstating of risk to secure budget or positive consequences.
+
+''Problems Enumerating Risk'' - Most organisations rely predominantly on either qualitative or quantitative measurement for their non-technical risk management, while technical risk is typically assessed via quantitative means Holistic risk is defined by both measurable factors and organisation context which cannot be represented by quantitative or qualitative assessment alone.
+
+''Non-Holistic Established Models'' - in examining various established risk management models (OCTAVE, NIST SP 800, MEHARI, ISO  27005, CORAS, EBIOS and CRAM) it is suggested that all have deficiencies, including; limited scope of risks assessed, being non-holistic, prescribing a single enumeration method, or are simplified. Adopting 2 different risk models to address these gaps would result in a lack of fusion between two discrete methods would limit accurate enumeration of holistic risk.
+
+The noted systemic and systematic issues with risk management systems are discussed in more depth within a 2021 article titled 'Holistic Security and Risk Intelligence: Are Current Risk Management Methods Leading to Breach?' <ref>https://www.techrxiv.org/articles/preprint/Holistic_Security_and_Risk_Intelligence_Are_Current_Risk_Management_Methods_Leading_to_Breach_/17425457</ref> and within an earlier explanatory animation [[https://vimeo.com/719123508/9c7dfcc7b1]].  
+
+'''Methods to Address Holistic Risk Management'''
+
+Holistic risk management systems will inevitably have significant data complexity and management by human-database systems would not be suitable due to the sematic gap. To attempt to manage such complexity with human-database systems may require model simplification resulting in new errors.  As existing risk management methodologies are either non-holistic,  and/or have significant limitations, combining them may result in a system with errors, omissions, bias between risks.  Basing an Machine Learning  and/or Artificial Intelligence implementation on the same underlying models would only model with these deficiencies.  
+
+Instead, the relevant ISO standards are utilised as a reference for holistic risk management features, but  that  new  holistic  risk  management  modelsare rquired. These could incorporate technical and risk man-agement information, along with non-risk organisation context,in order to establish relationships for dynamic risk assessment.We  suggest  this  may  prove  more  suited  to  identifying  andaccurately enumerating holistic or second order attacks.However, creating holistic risk models requires a number ofmodel and technical challenges to be addressed. These include:
+
+''Errors in Risk Management'' - a foremost consideration isa design process which eliminates or minimises experimentalerrors in risk models. In addition, when the model is appliedin  practice,  the  use  of  good  human  interface  design,  couldmitigate new systematic errors being introduced.
+
+''Hybrid    Risk    Enumeration    Methods''-    to    address qualitative  guess  work  or  over  reliance  on  quantitative  datawithout  context,  hybrid  enumeration  methods  will  need  toallow  the  context  of  qualitative  assessment  to  be  applied  tomore   accurate   quantitative   measurement   of   risk.   Systemsneed to capture risks which can be either tangible or intangible.
+
+''Fusion  of  Risk  Information  Systems''-  for  a  model  tobe  holistic  it  will  require  fusion  of  data  from  staff  systems,risk   management   systems,   technical   systems,   and   othersystems   with   organisation   context.   With   these   data   setsbeing  dissimilar,  several  data  algorithms  will  be  requiredto  solve  different  problems,  potentially;  machine  learningclassification,  content  inspection,  sentiment  analysis,  and  themapping of relationships.
+
+''Risk Ontology  Selection''- to address omissions in existing riskmodel  ontologies,  we  suggest  careful  selection  of  new  toplevel ontology elements, which can represent an organisationand its security risk. We suggest that there are [at minimum]six  ontological  elements  which  are  critical  to  representingan   organisation   and   its   security   risk,   these   are:   assets,stakeholders,  topology,  financial  metrics,  attack  vectors  andmitigation.Suggested Ontology Relationships - data  set  may  be  required.  Such  a  data  set  could  includecorresponding  data  from;  technical  risk  mitigation  systems,non-technical  risk  management  systems,  and  other  systemscontaining useful risk context information. This could supportthe research and development of holistic risk models utilisingML and AI.
+
+''Risk Ontology   Relationships''-   risk   modelling   may   requiresignificant complexity in relationships, where this is intendedto  be  interpreted  by  ML/AI  at  the  back  end,  rather  thanhuman  managers.  If  each  element  is  assigned  initial  domainexpert  qualitative  values  for  likelihood,  impact,  and  risk,  theinclusion of qualitative relationships defined by the correlationof  Continuity  (business  criticality),  Confidentiality,  Integrityand Availability (CCIA) metrics may be key to having a riskmodel  which  is  a  dynamic  representation  of  holistic  securityrisk. 
+
+''Complex Risk   Interpretation'' -   after   all   the   data   is processed  and  fused  into  a  smaller  number  of  data  sets,  itmay  require  interpretation  by  artificial  intelligence,  trainedby  either  supervised  learning  or  reinforcement  learning  fordecision   making.   It   is   the   decision   information   that   wesuggest could be used to inform risk managers.Development  of  Holistic  Risk  Data  Set-  To  test  newholistic  risk  models,  a  holistic  risk  management  benchmark.
